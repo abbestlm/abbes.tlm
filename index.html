@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of Abbes Abd Ennour – senior‑level full‑stack and multiplayer game developer building high‑performance web platforms and real‑time systems." />
+  <meta name="author" content="Abbes Abd Ennour" />
+  <meta name="keywords"
+    content="Abbes Abd Ennour, full stack developer, multiplayer game developer, web developer portfolio, AI developer, JavaScript, React, Node.js, Unity" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Abbes Abd Ennour · Portfolio" />
+  <meta property="og:description" content="Full‑Stack & Multiplayer Game Developer" />
+  <meta property="og:type"        content="website" />
+
+  <title>Abbes Abd Ennour · Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+  <!-- Fonts: Syne + DM Sans + DM Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Vendor -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- Portfolio stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="nav-glass" aria-label="Primary navigation">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+
+      <a href="#top" class="nav-brand">abbes.dev</a>
+
+      <!-- Desktop links -->
+      <div class="nav-links d-none d-md-flex align-items-center">
+        <a href="#stack">Stack</a>
+        <a href="#projects">Projects</a>
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+          Resume <i class="fas fa-arrow-up-right-from-square fa-xs ms-1" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="nav-hamburger d-md-none" aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div id="mobile-menu" class="nav-mobile-drawer" aria-hidden="true">
+      <a href="#stack"   class="nav-mobile-link">Stack</a>
+      <a href="#projects" class="nav-mobile-link">Projects</a>
+      <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-mobile-link">Resume</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <header>
+    <section id="hero" aria-labelledby="hero-title">
+      <div class="container text-center">
+        <!-- Avatar -->
+        <div class="mb-4" data-reveal style="--reveal-delay:80ms">
+          <img src="ana.jpeg"
+               alt="Portrait of Abbes Abd Ennour"
+               class="hero-avatar"
+               loading="eager"
+               width="186" height="186" />
+        </div>
+
+        <!-- Name -->
+        <p class="section-title mb-2" data-reveal style="--reveal-delay:140ms">
+          Full‑Stack · Game Dev · AI
+        </p>
+        <h1 id="hero-title" data-reveal style="--reveal-delay:180ms">
+          Abbes Abd Ennour
+        </h1>
+
+        <!-- Tagline -->
+        <p class="lead mt-2 mb-5" data-reveal style="--reveal-delay:220ms">
+          I build high‑performance web platforms,&nbsp;real‑time multiplayer&nbsp;systems,<br
+            class="d-none d-md-block" />
+          and applied&nbsp;AI&nbsp;products.
+        </p>
+
+        <!-- CTAs -->
+        <div class="hero-ctas d-flex justify-content-center flex-wrap gap-3 mb-5"
+             aria-label="Primary actions" data-reveal style="--reveal-delay:280ms">
+          <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            View Resume
+          </a>
+        </div>
+
+        <!-- Contact icons -->
+        <div class="d-flex justify-content-center flex-wrap gap-3"
+             aria-label="Contact links" data-reveal style="--reveal-delay:340ms">
+          <a href="https://www.linkedin.com/in/abd-ennour-abbes-208170276/"
+             target="_blank" rel="noopener noreferrer"
+             class="contact-icon" title="LinkedIn profile" aria-label="LinkedIn">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/abbestlm"
+             target="_blank" rel="noopener noreferrer"
+             class="contact-icon" title="GitHub profile" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:abbes.abdennour13@gmail.com"
+             class="contact-icon" title="Send an email" aria-label="Email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://wa.me/213553379103"
+             target="_blank" rel="noopener noreferrer"
+             class="contact-icon" title="WhatsApp" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       MAIN CONTENT
+  ═══════════════════════════════════════════ -->
+  <main>
+
+    <hr class="section-divider" />
+
+    <!-- ─── Technical Stack ─── -->
+    <section id="stack" class="py-5" aria-labelledby="stack-title">
+      <div class="container">
+
+        <p class="section-title text-center mb-2" data-reveal>My Toolkit</p>
+        <h2 id="stack-title" class="text-center mb-2" data-reveal style="--reveal-delay:60ms">
+          Technical Stack
+        </h2>
+        <p class="text-center mb-5" data-reveal style="color:var(--text-secondary);--reveal-delay:100ms">
+          Focused on high‑performance web platforms, real‑time multiplayer systems,&nbsp;and applied&nbsp;AI.
+        </p>
+
+        <div class="stack-grid" role="list">
+
+          <div class="stack-pill" role="listitem" tabindex="0" data-reveal style="--reveal-delay:0ms">
+            <i class="fab fa-react"    aria-hidden="true"></i>
+            <span>React &amp; Next.js</span>
+          </div>
+
+          <div class="stack-pill" role="listitem" tabindex="0" data-reveal style="--reveal-delay:50ms">
+            <i class="fab fa-node-js"  aria-hidden="true"></i>
+            <span>Node.js · Express · REST</span>
+          </div>
+
+          <div class="stack-pill" role="listitem" tabindex="0" data-reveal style="--reveal-delay:100ms">
+            <i class="fas fa-database" aria-hidden="true"></i>
+            <span>PostgreSQL &amp; SQL</span>
+          </div>
+
+          <div class="stack-pill" role="listitem" tabindex="0" data-reveal style="--reveal-delay:150ms">
+            <i class="fas fa-brain"    aria-hidden="true"></i>
+            <span>Machine Learning · Python</span>
+          </div>
+
+          <div class="stack-pill" role="listitem" tabindex="0" data-reveal style="--reveal-delay:200ms">
+            <i class="fas fa-gamepad" aria-hidden="true"></i>
+            <span>Unity · C# · Multiplayer</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- ─── Projects ─── -->
+    <section id="projects" class="py-5" aria-labelledby="projects-title">
+      <div class="container">
+
+        <p class="section-title text-center mb-2" data-reveal>What I've built</p>
+        <h2 id="projects-title" class="text-center mb-5" data-reveal style="--reveal-delay:60ms">
+          Featured Projects
+        </h2>
+
+        <div class="bento-grid" id="projectsRow" role="list" aria-live="polite" aria-label="Project cards">
+          <!-- Injected by projects.js -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <hr class="section-divider" />
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-4 gap-2">
+
+      <p class="mb-0" style="color:var(--text-muted);font-size:0.8rem">
+        © 2024 <span style="color:var(--text-secondary)">Abbes Abd Ennour</span>. All rights reserved.
+      </p>
+
+      <p class="mb-0" style="color:var(--text-muted);font-size:0.8rem">
+        Built with focus on&nbsp;
+        <span style="color:var(--accent)">performance</span>,&nbsp;
+        <span style="color:var(--accent-spark)">accessibility</span>&nbsp;&amp;&nbsp;
+        <span style="color:var(--success)">real‑time systems</span>.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════
+       SCRIPTS
+  ═══════════════════════════════════════════ -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js" defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+  <script src="projects.js" defer></script>
+  <script src="main.js" defer></script>
+
+  <!-- Mobile nav + scroll-reveal inline bootstrap -->
+  <script>
+    // ── Mobile hamburger toggle ──
+    const hamburger = document.querySelector('.nav-hamburger');
+    const drawer    = document.getElementById('mobile-menu');
+    if (hamburger && drawer) {
+      hamburger.addEventListener('click', () => {
+        const open = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', String(!open));
+        drawer.setAttribute('aria-hidden', String(open));
+        drawer.classList.toggle('is-open', !open);
+        hamburger.classList.toggle('is-open', !open);
+      });
+      // Close drawer when a link is clicked
+      drawer.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => {
+          hamburger.setAttribute('aria-expanded', 'false');
+          drawer.setAttribute('aria-hidden',   'true');
+          drawer.classList.remove('is-open');
+          hamburger.classList.remove('is-open');
+        })
+      );
+    }
+
+    // ── Scroll Reveal ──
+    const revealEls = document.querySelectorAll('[data-reveal]');
+    if ('IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver(
+        entries => entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('reveal', 'is-visible');
+            revealObserver.unobserve(e.target);
+          }
+        }),
+        { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+      );
+      window.__revealObserver = revealObserver;
+      revealEls.forEach(el => {
+        el.classList.add('reveal');
+        revealObserver.observe(el);
+      });
+    } else {
+      // Fallback: just show everything
+      revealEls.forEach(el => el.classList.add('reveal', 'is-visible'));
+    }
+  </script>
+
+</body>
+</html>
