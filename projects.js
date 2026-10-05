@@ -57,7 +57,7 @@ const projects = [
   "progress": 100,
   "status": "Try it now",
   "icon": "fas fa-search-plus",
-  "tags": ["JavaScript", "WebAssembly", "ONNX Runtime", "Client-side ML", "Privacy-First"],
+  "tags": ["JavaScript", "HTML5 File System API", "Local Indexing", "Edge Processing"],
   "badge": { "label": "Completed", "type": "success" }
 },
   {
