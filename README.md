@@ -3,7 +3,7 @@
 This repository contains the source code for my personal developer portfolio, hosted via GitHub Pages at **https://github.io**.
 
 ## 🚀 Live Site
-🔗 **URL:** [abbestlm.github.io](https://github.io)
+🔗 **URL:** [[abbestlm.github.io](https://github.io)](https://abbestlm.github.io/abbes.tlm/)
 
 ## 🛠️ Technical Stack & Toolkit
 Focused on high‑performance web platforms, real‑time multiplayer systems, and applied AI:
