@@ -49,6 +49,17 @@ const projects = [
     tags: ["JavaScript", "WebAssembly", "ONNX Runtime", "Client-side ML"],
     badge: { label: "Completed", type: "success" }
   },
+     {
+  "title": "Excel File Search",
+  "img": "project13.png",
+  "description": "Search every sheet, table, and row locally—nothing ever leaves your machine. Upload entire folders to instantly index every .xlsx, .xls, .xlsm, .xlsb, and .csv file, including subfolders.",
+  "link": "https://abbestlm.github.io/EXEL_SEARCH/",
+  "progress": 100,
+  "status": "Try it now",
+  "icon": "fas fa-search-plus",
+  "tags": ["JavaScript", "WebAssembly", "ONNX Runtime", "Client-side ML", "Privacy-First"],
+  "badge": { "label": "Completed", "type": "success" }
+},
   {
     title: "Dream Canvas",
     img: "project10.png",
